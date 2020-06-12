@@ -1,0 +1,150 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron{
+	background-image: url('../image/night5.jpeg');
+	background-size: cover;
+	background-position: center;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 100px;
+}
+
+nav ul,.jumbotron p, .container{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jumbotron img{
+	width: 83.838px;
+	height: 60px;
+	margin-bottom: 5px;
+}
+
+
+ul.nav{
+	font-size: 20px;
+}
+
+.jumbotron{
+	text-align: center;
+}
+
+.btn-lg{
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.container{
+	text-align: center;
+	
+}
+
+.container h2{
+	margin-bottom: 40px;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+.container h2,h3{
+	color: #DB4437;
+}
+
+#get-involved{
+	background-color: #f5f5f5
+}
+
+.container h3{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.container p{
+	font-size: 19px;
+}
+
+.container hr{	
+    border-color: #DB4437;
+    width: 160px;
+    margin-top: 6px;
+    margin-bottom: 38px;
+}
+
+.container img{
+	margin-bottom: 30px;
+}
+
+.container a:hover{
+	color: black;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.jumbotron img{
+	margin-bottom: 0px;
+}
+
+footer{
+	text-align: center;
+	background-color: #DCDCDC;
+	padding-bottom: 40PX;
+}
+
+#backtotop{
+	position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+#backtotop a{
+	color: #333;
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width:768px) {
+	.container navbar-header{
+		font-size: 24px;
+	}
+	.jumbotron h1{
+		font-size: 45px;
+		padding-bottom: 30px;
+		margin-bottom: -4px;
+	}	
+	.jumbotron p{
+		font-size: 16px;
+	}
+	.btn-lg{
+		font-size: 19px;
+	}
+	.jumbotron img{
+		width: 54px;
+    	height: 39px;
+	}
+	.container h2 {
+	    margin-bottom: 40px;
+	    font-size: 28px;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    margin-bottom: 6px;
+	}
+	.container hr {
+	    border-color: #DB4437;
+	    width: 160px;
+	    margin-top: 6px;
+	    margin-bottom: 21px;
+	}
+	#who img{
+		width: 250px;
+	}
+	.container p {
+    	font-size: 15px;
+	}
+	.btn-info{
+		margin-bottom: 30px;
+	}
+}
+
